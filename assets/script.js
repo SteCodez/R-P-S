@@ -98,4 +98,10 @@ const game = () => {
             result.innerText = 'You Lost The Game';
             result.style.color = 'red';
         }
+        else {
+            result.style.fontSize = '2rem';
+            result.innerText = 'Tie';
+            result.style.color = 'grey'
+        }
     }
+}
