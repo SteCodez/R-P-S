@@ -32,3 +32,10 @@ h1 {
     top: 70px;
     z-index: 1;
 }
+
+.p-count,
+.c-count {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
