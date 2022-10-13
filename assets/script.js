@@ -21,9 +21,12 @@ const game = () => {
                 const computerChoice = computerOptions[choiceNumber];
 
                 winner(this.innerText, computerChoice)
-            }
-            })
-    })
 
-}
+                if (moves == 10) {
+                    gameOver(playerOptions, movesLeft);
+                }
+            })
+        })
+
+    }
 }
