@@ -109,4 +109,9 @@ const game = () => {
             window.location.reload();
         })
     }
+
+    playGame();
+
 }
+
+game();
