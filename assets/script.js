@@ -17,6 +17,8 @@ const game = () => {
                 moves++;
                 movesLeft.innerText = `Moves Left: ${10 - moves}`;
 
+                const choiceNumber = Math.floor(Math.random() * 3);
+                const computerChoice = computerOptions[choiceNumber];
             }
             })
     })
