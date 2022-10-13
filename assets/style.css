@@ -78,8 +78,6 @@ h1 {
 
 .scissor {
     background: url(./images/scissors_image2.png) no-repeat center center;
-    cursor: pointer;
-    border: none;
     width: 100px;
     height: 100px;
 }
