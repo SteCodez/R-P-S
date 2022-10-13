@@ -74,4 +74,8 @@ const game = () => {
             }
         }
     }
+
+    const gameOver = (playerOptions, movesLeft) => {
+
+    }
 }
