@@ -86,3 +86,14 @@ h1 {
     font-size: 2rem;
     font-weight: bold;
 }
+
+.reload {
+    display: none;
+    margin-top: 2rem;
+    padding: 1rem;
+    background: green;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
