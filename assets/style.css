@@ -79,20 +79,20 @@ h1 {
 .rock {
     background: url(./images/rock_image2.png) no-repeat center center;
     cursor: pointer;
-    width: 100px;
-    height: 100px;
+    width: 70px;
+    height: 70px;
 }
 
 .paper {
     background: url(./images/paper_image2.png) center;
-    width: 100px;
-    height: 100px;
+    width: 70px;
+    height: 70px;
 }
 
 .scissor {
     background: url(./images/scissors_image2.png) no-repeat center center;
-    width: 100px;
-    height: 100px;
+    width: 70px;
+    height: 70px;
 }
 
 .move {
