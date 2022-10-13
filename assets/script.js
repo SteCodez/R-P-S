@@ -51,5 +51,16 @@ const game = () => {
                 playerScoreBoard.textContent = playerScore;
             }
         }
+        else if (player == 'scissors') {
+            if (computer == 'rock') {
+                result.textContent = 'Computer Won';
+                computerScore++;
+                computerScoreBoard.textContent = computerScore;
+            } else {
+                result.textContent = 'Player Won';
+                playerScore++;
+                playerScoreBoard.textContent = playerScore;
+            }
+        }
     }
 }
