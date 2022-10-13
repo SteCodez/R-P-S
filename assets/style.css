@@ -97,3 +97,9 @@ h1 {
     border-radius: 10px;
     cursor: pointer;
 }
+
+
+.result {
+    margin-top: 20px;
+    font-size: 1.2rem;
+}
