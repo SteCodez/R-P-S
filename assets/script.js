@@ -9,5 +9,17 @@ const game = () => {
         const scissorBtn = document.querySelector('.scissor');
         const playerOptions = [rockBtn, paperBtn, scissorBtn];
         const computerOptions = ['rock', 'paper', 'scissors']
-    }
+
+        playerOptions.forEach(option => {
+            option.addEventListener('click', function () {
+
+                const movesLeft = document.querySelector('.movesleft');
+                moves++;
+                movesLeft.innerText = `Moves Left: ${10 - moves}`;
+
+            }
+            })
+    })
+
+}
 }
