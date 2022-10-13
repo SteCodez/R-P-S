@@ -103,3 +103,20 @@ h1 {
     margin-top: 20px;
     font-size: 1.2rem;
 }
+
+@media screen and (max-width: 612px) {
+    .title {
+        text-align: center;
+    }
+
+    .score {
+        border: 2px solid white;
+        position: initial;
+        top: 200px;
+        width: 100vw;
+    }
+
+    .options {
+        width: 100vw;
+    }
+}
