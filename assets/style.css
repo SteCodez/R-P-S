@@ -47,6 +47,19 @@ h1 {
     margin-top: 2rem;
 }
 
+
+.rock:hover {
+    transform: scale(1.5);
+}
+
+.scissor:hover {
+    transform: scale(1.5);
+}
+
+.paper:hover {
+    transform: scale(1.5);
+}
+
 .rock,
 .paper,
 .scissor {
