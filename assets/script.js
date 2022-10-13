@@ -84,5 +84,9 @@ const game = () => {
         playerOptions.forEach(option => {
             option.style.display = 'none';
         })
+
+        chooseMove.innerText = 'Game Over!!'
+        movesLeft.style.display = 'none';
+
     }
 }
