@@ -19,6 +19,8 @@ const game = () => {
 
                 const choiceNumber = Math.floor(Math.random() * 3);
                 const computerChoice = computerOptions[choiceNumber];
+
+                winner(this.innerText, computerChoice)
             }
             })
     })
