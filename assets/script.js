@@ -29,4 +29,10 @@ const game = () => {
         })
 
     }
-}
+
+    const winner = (player, computer) => {
+        const result = document.querySelector('.result');
+        const playerScoreBoard = document.querySelector('.p-count');
+        const computerScoreBoard = document.querySelector('.c-count');
+    }
+
