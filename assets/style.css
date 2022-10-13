@@ -23,3 +23,12 @@ h1 {
     text-align: center;
     border-bottom: 2px solid white;
 }
+
+.score {
+    display: flex;
+    width: 30vw;
+    justify-content: space-evenly;
+    position: absolute;
+    top: 70px;
+    z-index: 1;
+}
