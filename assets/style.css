@@ -62,3 +62,24 @@ h1 {
     color: rgba(0, 0, 0, 0);
     font-size: 0rem;
 }
+
+.rock {
+    background: url(./images/rock_image2.png) no-repeat center center;
+    cursor: pointer;
+    width: 100px;
+    height: 100px;
+}
+
+.paper {
+    background: url(./images/paper_image2.png) center;
+    width: 100px;
+    height: 100px;
+}
+
+.scissor {
+    background: url(./images/scissors_image2.png) no-repeat center center;
+    cursor: pointer;
+    border: none;
+    width: 100px;
+    height: 100px;
+}
