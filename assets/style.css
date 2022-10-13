@@ -81,3 +81,8 @@ h1 {
     width: 100px;
     height: 100px;
 }
+
+.move {
+    font-size: 2rem;
+    font-weight: bold;
+}
