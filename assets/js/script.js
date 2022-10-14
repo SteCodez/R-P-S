@@ -38,7 +38,7 @@ const game = () => {
         const playerScoreBoard = document.querySelector(".p-count");
         const computerScoreBoard = document.querySelector(".c-count");
         player = player.toLowerCase();
-        computer = computer.toLowerCase();
+        computer = computer.toLowerCase();/*Converting player and computer text to lowercase */
         if (player === computer) {
             result.textContent = "Tie"; /*If the options picked are the same, the game will tie */
         }
