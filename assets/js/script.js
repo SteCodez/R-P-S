@@ -77,7 +77,7 @@ const game = () => {
             }
         }
     };
-
+    /*After the gameplay function has ran this function will display the appropriate message */
     const gameOver = (playerOptions, movesLeft) => {
 
         const chooseMove = document.querySelector(".move");
@@ -90,22 +90,22 @@ const game = () => {
 
         chooseMove.innerText = "Game Over!!";
         movesLeft.style.display = "none";
-
+        /*The message if you win */
         if (playerScore > computerScore) {
             result.style.fontSize = "2rem";
             result.innerText = "You Won The Game";
             result.style.color = "#308D46";
-        }
+        }  /*The message if you lose */
         else if (playerScore < computerScore) {
             result.style.fontSize = "2rem";
             result.innerText = "You Lost The Game";
             result.style.color = "red";
-        }
+        }  /*The message if you tie */
         else {
             result.style.fontSize = "2rem";
             result.innerText = "Tie";
             result.style.color = "grey";
-        }
+        } /*The displayrd reload button  */
         reloadBtn.innerText = "Restart";
         reloadBtn.style.display = "flex";
         reloadBtn.addEventListener("click", () => {
@@ -116,5 +116,5 @@ const game = () => {
     playGame();
 
 };
-
+/*Calling the game fucntion to run */
 game();
