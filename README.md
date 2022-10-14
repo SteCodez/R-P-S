@@ -62,12 +62,6 @@ The purpose of this project is to give users a simple rock, paper, scissors expe
 * ![Color black](https://github.com/SteCodez/the-big-quiz-challenge/blob/master/quiz_challenge_images_/black_color_palette.png)
 * ![Color white](https://github.com/SteCodez/R-P-S/blob/master/images/color_white.png?raw=true)
 
-#### General Layout
-
-* ![Overall Responsiveness phone]() 
-* ![Overall Responsiveness tablet]()
-* ![Overall Responsiveness computer]()
-
 ---
 ---
 ## Technologies
@@ -124,7 +118,7 @@ The purpose of this project is to give users a simple rock, paper, scissors expe
 #### Unresolved errors
 
 
-* ![Unresolved errors]()
+* The only unresolved issues ar the warnings from JSHint which are warnings and not actual errors. They all seem to be syntax related.
 
 ## Deployment
 ***
