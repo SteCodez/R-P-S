@@ -15,7 +15,8 @@
     align-items: center;
 }
 
-h1 {
+h1,
+h3 {
     position: flex;
     top: 0;
     font-size: 3rem;
