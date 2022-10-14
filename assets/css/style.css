@@ -27,7 +27,7 @@ h1 {
     display: flex;
     width: 30vw;
     justify-content: space-evenly;
-    position: absolute;
+    position: unset;
     top: 100px;
     border: 2px dotted white;
     z-index: 1;
