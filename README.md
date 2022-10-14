@@ -1,4 +1,4 @@
-# Project-2-The Big Quiz Challange
+## Project 3 - Rock, paper, scissors.
 ## Table of Contents
 
 1. [General Info](#GeneralInfo)
@@ -59,8 +59,9 @@ The purpose of this project is to give users a simple rock, paper, scissors expe
 
 #### Color Palette
 
-* ![Color black](https://github.com/SteCodez/the-big-quiz-challenge/blob/master/quiz_challenge_images_/black_color_palette.png)
-* ![Color white](https://github.com/SteCodez/R-P-S/blob/master/images/color_white.png?raw=true)
+![Color black](https://github.com/SteCodez/the-big-quiz-challenge/blob/master/quiz_challenge_images_/black_color_palette.png)
+![Color white](https://github.com/SteCodez/R-P-S/blob/master/images/color_white.png?raw=true)
+![color green](https://github.com/SteCodez/R-P-S/blob/master/images/color_green.png?raw=true)  
 
 ---
 ---
@@ -84,19 +85,18 @@ The purpose of this project is to give users a simple rock, paper, scissors expe
 
  | What is expected. | Did the element successfully perform its task? If not, why? | How was the issue fixed? | Approved/issue resolved? |
    |-------------| ------------ | ------------- |------------- |
-|||||
-|||||
-|||||
-|||||
-|||||
+|I expect the game to load all images so that I can choose the option I would like.| Yes | n/a | Yes |
+|I expect the score to update either for or against me when I choose an option | Yes | n/a | Yes |
+|I expect the game to come to a halt after either the player or the bot reach an unbeatable score| Yes | n/a | Yes |
+|I expect the reset button to reload the game with all scores reset when I click it | Yes | n/a | Yes |
+|I expect when a victory or a loss is earned that the application will notify me of either | Yes | n/a | Yes |
 
 * ![Lighthouse](https://github.com/SteCodez/R-P-S/blob/master/images/lighthouse_performance.png?raw=true)
 * ![html before](https://github.com/SteCodez/R-P-S/blob/master/images/html_errors.png?raw=true)
 * ![html validation](https://github.com/SteCodez/R-P-S/blob/master/images/html_no_error.png?raw=true)
 * ![css before](https://github.com/SteCodez/R-P-S/blob/master/images/css_errors.png?raw=true)
 * ![css validation](https://github.com/SteCodez/R-P-S/blob/master/images/css_no_errors.png?raw=true)
-* ![js hin warnings](https://github.com/SteCodez/R-P-S/blob/master/images/linter_warnings.png?raw=true)
-* ![]()
+* ![js hint warnings](https://github.com/SteCodez/R-P-S/blob/master/images/linter_warnings.png?raw=true)
 
 #### Devices tested on
 * iPhone Xr
@@ -114,11 +114,6 @@ The purpose of this project is to give users a simple rock, paper, scissors expe
 * 320px
 * 640px
 * 900px
-
-#### Unresolved errors
-
-
-* The only unresolved issues ar the warnings from JSHint which are warnings and not actual errors. They all seem to be syntax related.
 
 ## Deployment
 ***
