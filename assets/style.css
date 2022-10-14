@@ -17,7 +17,6 @@
 
 h1,
 h3 {
-    position: flex;
     top: 0;
     font-size: 3rem;
     z-index: 2;
