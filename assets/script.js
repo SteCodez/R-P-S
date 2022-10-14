@@ -10,7 +10,7 @@ const game = () => {
         const playerOptions = [rockBtn, paperBtn, scissorBtn];
         const computerOptions = ["rock", "paper", "scissors"]
 
-        playerOptions.forEach(option => {
+        playerOptions.forEach((option) => {
             option.addEventListener("click", function () {
 
                 const movesLeft = document.querySelector(".movesleft");
@@ -22,13 +22,13 @@ const game = () => {
 
                 winner(this.innerText, computerChoice)
 
-                if (moves == 10) {
+                if (moves === 10) {
                     gameOver(playerOptions, movesLeft);
                 }
-            })
-        })
+            });
+        });
 
-    }
+    };
 
     const winner = (player, computer) => {
         const result = document.querySelector(".result");
@@ -37,22 +37,22 @@ const game = () => {
         player = player.toLowerCase();
         computer = computer.toLowerCase();
         if (player === computer) {
-            result.textContent = "Tie"
+            result.textContent = "Tie";
         }
-        else if (player == "rock") {
-            if (computer == "paper") {
+        else if (player === "rock") {
+            if (computer === "paper") {
                 result.textContent = "Computer Won";
                 computerScore++;
                 computerScoreBoard.textContent = computerScore;
 
             } else {
-                result.textContent = "Player Won"
+                result.textContent = "Player Won";
                 playerScore++;
                 playerScoreBoard.textContent = playerScore;
             }
         }
-        else if (player == "scissors") {
-            if (computer == "rock") {
+        else if (player === "scissors") {
+            if (computer === "rock") {
                 result.textContent = "Computer Won";
                 computerScore++;
                 computerScoreBoard.textContent = computerScore;
@@ -62,8 +62,8 @@ const game = () => {
                 playerScoreBoard.textContent = playerScore;
             }
         }
-        else if (player == "paper") {
-            if (computer == "scissors") {
+        else if (player === "paper") {
+            if (computer === "scissors") {
                 result.textContent = "Computer Won";
                 computerScore++;
                 computerScoreBoard.textContent = computerScore;
@@ -73,7 +73,7 @@ const game = () => {
                 playerScoreBoard.textContent = playerScore;
             }
         }
-    }
+    };
 
     const gameOver = (playerOptions, movesLeft) => {
 
@@ -81,16 +81,16 @@ const game = () => {
         const result = document.querySelector(".result");
         const reloadBtn = document.querySelector(".reload");
 
-        playerOptions.forEach(option => {
+        playerOptions.forEach((option) => {
             option.style.display = "none";
-        })
+        });
 
-        chooseMove.innerText = "Game Over!!"
+        chooseMove.innerText = "Game Over!!";
         movesLeft.style.display = "none";
 
         if (playerScore > computerScore) {
             result.style.fontSize = "2rem";
-            result.innerText = "You Won The Game"
+            result.innerText = "You Won The Game";
             result.style.color = "#308D46";
         }
         else if (playerScore < computerScore) {
@@ -101,17 +101,17 @@ const game = () => {
         else {
             result.style.fontSize = "2rem";
             result.innerText = "Tie";
-            result.style.color = "grey"
+            result.style.color = "grey";
         }
         reloadBtn.innerText = "Restart";
-        reloadBtn.style.display = "flex"
+        reloadBtn.style.display = "flex";
         reloadBtn.addEventListener("click", () => {
             window.location.reload();
-        })
-    }
+        });
+    };
 
     playGame();
 
-}
+};
 
 game();
