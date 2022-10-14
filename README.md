@@ -39,7 +39,10 @@ The purpose of this project is to give users a simple rock, paper, scissors expe
 
 ## Design
 ***
-
+* ![](https://github.com/SteCodez/R-P-S/blob/master/images/start_of_game.png?raw=true)
+* ![](https://github.com/SteCodez/R-P-S/blob/master/images/Screenshot%202022-10-14%20014044.png?raw=true)
+* ![]([image](https://user-images.githubusercontent.com/107943478/195765764-a9423498-b6ac-464e-a499-165cc7670491.png)
+* ![](https://raw.githubusercontent.com/SteCodez/R-P-S/7bc1f2c11a9e277ab4d89cf8f82b94532948bb14/images/picture_issue.png)
 #### Wireframes
 
 * ![Wireframe, phones]()
