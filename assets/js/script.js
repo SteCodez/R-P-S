@@ -1,3 +1,5 @@
+/* This first functhion will contain all
+ of the game logic whitin itself */
 const game = () => {
     let playerScore = 0;
     let computerScore = 0;
@@ -12,16 +14,16 @@ const game = () => {
 
         playerOptions.forEach((option) => {
             option.addEventListener("click", function () {
-
+                /* Will calculate the amount of mo*/
                 const movesLeft = document.querySelector(".movesleft");
                 moves++;
                 movesLeft.innerText = `Moves Left: ${10 - moves}`;
-
+                /*Calculates a random choice for the computer */
                 const choiceNumber = Math.floor(Math.random() * 3);
                 const computerChoice = computerOptions[choiceNumber];
 
                 winner(this.innerText, computerChoice)
-
+                /*Sets the amount of available moves */
                 if (moves === 10) {
                     gameOver(playerOptions, movesLeft);
                 }
@@ -31,24 +33,25 @@ const game = () => {
     };
 
     const winner = (player, computer) => {
+        /* Below we are setting conditions of each combination of options*/
         const result = document.querySelector(".result");
         const playerScoreBoard = document.querySelector(".p-count");
         const computerScoreBoard = document.querySelector(".c-count");
         player = player.toLowerCase();
         computer = computer.toLowerCase();
         if (player === computer) {
-            result.textContent = "Tie";
+            result.textContent = "Tie"; /*If the options picked are the same, the game will tie */
         }
         else if (player === "rock") {
             if (computer === "paper") {
                 result.textContent = "Computer Won";
                 computerScore++;
-                computerScoreBoard.textContent = computerScore;
+                computerScoreBoard.textContent = computerScore; /*Updating the computers score*/
 
             } else {
                 result.textContent = "Player Won";
                 playerScore++;
-                playerScoreBoard.textContent = playerScore;
+                playerScoreBoard.textContent = playerScore; /*Updating the players score */
             }
         }
         else if (player === "scissors") {
