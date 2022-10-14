@@ -1,4 +1,4 @@
-## Project 3 - Rock, paper, scissors.
+## Project 2 - Rock, paper, scissors.
 ## Table of Contents
 
 1. [General Info](#GeneralInfo)
@@ -13,7 +13,7 @@
 
 ## General Info and purpose of project
 ***
-The purpose of this project is to give users a simple rock, paper, scissors experience. The site design is simple and to the point. 
+The purpose of this project is to give users a simple rock, paper, scissors experience. The site design is simple and to the point. I wanted to keep a streamlined look. R/P/S is an age old technique of settling disputes and arguments between friends. I have used it man many times too settle disputes or claim ownership of sweets when I was a child. I hope you enjoy.
 
 ---
 ## User Stories
@@ -21,19 +21,24 @@ The purpose of this project is to give users a simple rock, paper, scissors expe
 ---
 #### **As a user using this application the things I would like to see are.**
 
+* As a user I would like the rules of the game to be made immediately apparent.
 * As a user I would like to see a working game.
 * As a user I would like to see a design that is not overly complicated.
 * As a user I would like to know the purpose of the site as soon as I enter.
 * As a user I would like to see all of the functions working correctly.
 * As a user I would like to see my score as I progress through the game.
-* As a user I would like to replay the game easily after completion
+* As a user I would like to replay the game easily after completion.
  
 #### **As a user returning to this application the things I would like to see are.**
+
 * I would like too maybe see the game difficulty changed by adding in Lizard, Spock.
 * I would like to see a highscore system.
-* I would like to be able to modify the amount of moves I have
+* I would like to be able to modify the amount of moves I have.
 * I would like to see more visual aids added into the project.
 * I would like to see a reset button before the end of the game.
+* I would like to possibly see animations for each option.
+* I would like to see images in place for the computer.
+
 ---
 ---
 
@@ -93,12 +98,12 @@ The purpose of this project is to give users a simple rock, paper, scissors expe
 |I expect the game to maintain user friendliness as I change device size| The game seem to be viable for numerous devices | n/a | Yes |
 |I expect the computer to pick randomly instead of a repeat choice| The computer succesfully made random choices | n/a | Yes |
 
-* ![Lighthouse](https://github.com/SteCodez/R-P-S/blob/master/images/lighthouse_performance.png?raw=true)
-* ![html before](https://github.com/SteCodez/R-P-S/blob/master/images/html_errors.png?raw=true)
-* ![html validation](https://github.com/SteCodez/R-P-S/blob/master/images/html_no_error.png?raw=true)
-* ![css before](https://github.com/SteCodez/R-P-S/blob/master/images/css_errors.png?raw=true)
-* ![css validation](https://github.com/SteCodez/R-P-S/blob/master/images/css_no_errors.png?raw=true)
-* ![js hint warnings](https://github.com/SteCodez/R-P-S/blob/master/images/linter_warnings.png?raw=true)
+![Lighthouse](https://github.com/SteCodez/R-P-S/blob/master/images/lighthouse_performance.png?raw=true)
+![html before](https://github.com/SteCodez/R-P-S/blob/master/images/html_errors.png?raw=true)
+![html validation](https://github.com/SteCodez/R-P-S/blob/master/images/html_no_error.png?raw=true)
+![css before](https://github.com/SteCodez/R-P-S/blob/master/images/css_errors.png?raw=true)
+![css validation](https://github.com/SteCodez/R-P-S/blob/master/images/css_no_errors.png?raw=true)
+![js hint warnings](https://github.com/SteCodez/R-P-S/blob/master/images/linter_warnings.png?raw=true)
 
 * The only issues I had were the warning on JSHint, some of them I didnt fully understand the issues but I was able to fix the vast majorit as they were for missing semi colons and other syntax errors.
 
