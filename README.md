@@ -9,6 +9,7 @@
 6. [Deplpoyment](Deployment)
 ---
 ---
+* [Responsive design](https://github.com/SteCodez/R-P-S/blob/master/images/resp_design.png?raw=true)
 
 ## General Info and purpose of project
 ***
@@ -55,7 +56,7 @@ The purpose of this project is to give users a simple rock, paper, scissors expe
 #### Color Palette
 
 * ![Color black](https://github.com/SteCodez/the-big-quiz-challenge/blob/master/quiz_challenge_images_/black_color_palette.png)
-* ![Color white]()
+* ![Color white](https://github.com/SteCodez/R-P-S/blob/master/images/color_white.png?raw=true)
 
 #### General Layout
 
@@ -91,14 +92,12 @@ The purpose of this project is to give users a simple rock, paper, scissors expe
 |||||
 |||||
 
-* ![Lighthouse first run]()
-* ![Lighthouse second run]()
-* ![]()
-* ![]()
-* ![]()
-* ![Leaderboard page validation certificate]()
-* ![Style.css page validation certificate]()
-* ![Game.css page validation certificate]()
+* ![Lighthouse](https://github.com/SteCodez/R-P-S/blob/master/images/lighthouse_performance.png?raw=true)
+* ![html before](https://github.com/SteCodez/R-P-S/blob/master/images/html_errors.png?raw=true)
+* ![html validation](https://github.com/SteCodez/R-P-S/blob/master/images/html_no_error.png?raw=true)
+* ![css before](https://github.com/SteCodez/R-P-S/blob/master/images/css_errors.png?raw=true)
+* ![css validation](https://github.com/SteCodez/R-P-S/blob/master/images/css_no_errors.png?raw=true)
+* ![js hin warnings](https://github.com/SteCodez/R-P-S/blob/master/images/linter_warnings.png?raw=true)
 * ![]()
 
 #### Devices tested on
