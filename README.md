@@ -44,7 +44,6 @@ The purpose of this project is to give users a simple rock, paper, scissors expe
 * ![Wireframe, phones]()
 * ![Wireframe, tablets]()
 * ![Wireframe, full screen]()
-* ![Wireframe, full screen part two]()
 ---
 #### UX Goals
 * An easy flowing website with clear demonstration of purpose.
@@ -60,9 +59,9 @@ The purpose of this project is to give users a simple rock, paper, scissors expe
 
 #### General Layout
 
-* ![Overall Responsiveness phone](https://github.com/SteCodez/the-big-quiz-challenge/blob/master/quiz_challenge_images_/responsive_design_test.png) 
-* ![Overall Responsiveness tablet](https://github.com/SteCodez/the-big-quiz-challenge/blob/master/quiz_challenge_images_/general_responsiveness_quiz.png)
-* ![Overall Responsiveness computer](https://github.com/SteCodez/the-big-quiz-challenge/blob/master/quiz_challenge_images_/general_responsiveness_end.png)
+* ![Overall Responsiveness phone]() 
+* ![Overall Responsiveness tablet]()
+* ![Overall Responsiveness computer]()
 
 ---
 ---
