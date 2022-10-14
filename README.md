@@ -46,9 +46,8 @@ The purpose of this project is to give users a simple rock, paper, scissors expe
 ![](https://github.com/SteCodez/R-P-S/blob/master/images/full_player_area.png?raw=true)
 #### Wireframes
 
-* ![Wireframe, phones]()
-* ![Wireframe, tablets]()
-* ![Wireframe, full screen]()
+* ![Wireframe, phones](https://github.com/SteCodez/R-P-S/blob/master/images/wireframe_tablet.png?raw=true)
+* ![Wireframe, full screen](https://github.com/SteCodez/R-P-S/blob/master/images/wireframe_site.png?raw=true)
 ---
 #### UX Goals
 * An easy flowing website with clear demonstration of purpose.
@@ -98,6 +97,8 @@ The purpose of this project is to give users a simple rock, paper, scissors expe
 * ![css validation](https://github.com/SteCodez/R-P-S/blob/master/images/css_no_errors.png?raw=true)
 * ![js hint warnings](https://github.com/SteCodez/R-P-S/blob/master/images/linter_warnings.png?raw=true)
 
+* The only issues I had were the warning on JSHint, some of them I didnt fully understand the issues but I was able to fix the vast majorit as they were for missing semi colons and other syntax errors.
+
 #### Devices tested on
 * iPhone Xr
 * iPhone 11
@@ -144,3 +145,7 @@ By forking the GitHub Repository you will be able to make a copy of the original
 * Change the current working directory to the location where you want the cloned directory to be made.
 * Type git clone, and then paste the URL you copied above.
 * Press Enter. Your local clone will be created.
+
+## notes
+* The wireframe technology I had access to since my trial for balsamiq ran out is extremely poor.
+* Unfotunately I was very ill and had only very little time so it is extremely basic.
