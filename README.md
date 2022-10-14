@@ -9,7 +9,7 @@
 6. [Deplpoyment](Deployment)
 ---
 ---
-* ![Responsive design](https://github.com/SteCodez/R-P-S/blob/master/images/resp_design.png?raw=true)
+![Responsive design](https://github.com/SteCodez/R-P-S/blob/master/images/resp_design.png?raw=true)
 
 ## General Info and purpose of project
 ***
@@ -44,10 +44,11 @@ The purpose of this project is to give users a simple rock, paper, scissors expe
 ![](https://user-images.githubusercontent.com/107943478/195765764-a9423498-b6ac-464e-a499-165cc7670491.png)
 ![](https://raw.githubusercontent.com/SteCodez/R-P-S/7bc1f2c11a9e277ab4d89cf8f82b94532948bb14/images/picture_issue.png)
 ![](https://github.com/SteCodez/R-P-S/blob/master/images/full_player_area.png?raw=true)
+![](https://github.com/SteCodez/R-P-S/blob/master/images/you_win.png?raw=true)
 #### Wireframes
 
-* ![Wireframe, phones](https://github.com/SteCodez/R-P-S/blob/master/images/wireframe_tablet.png?raw=true)
-* ![Wireframe, full screen](https://github.com/SteCodez/R-P-S/blob/master/images/wireframe_site.png?raw=true)
+![Wireframe, phones](https://github.com/SteCodez/R-P-S/blob/master/images/wireframe_tablet.png?raw=true)
+![Wireframe, full screen](https://github.com/SteCodez/R-P-S/blob/master/images/wireframe_site.png?raw=true)
 ---
 #### UX Goals
 * An easy flowing website with clear demonstration of purpose.
