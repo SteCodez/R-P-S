@@ -85,11 +85,13 @@ The purpose of this project is to give users a simple rock, paper, scissors expe
 
  | What is expected. | Did the element successfully perform its task? If not, why? | How was the issue fixed? | Approved/issue resolved? |
    |-------------| ------------ | ------------- |------------- |
-|I expect the game to load all images so that I can choose the option I would like.| Yes | n/a | Yes |
-|I expect the score to update either for or against me when I choose an option | Yes | n/a | Yes |
-|I expect the game to come to a halt after either the player or the bot reach an unbeatable score| Yes | n/a | Yes |
-|I expect the reset button to reload the game with all scores reset when I click it | Yes | n/a | Yes |
-|I expect when a victory or a loss is earned that the application will notify me of either | Yes | n/a | Yes |
+|I expect the game to load all images so that I can choose the option I would like.| All images loaded. | n/a | Yes |
+|I expect the score to update either for or against me when I choose an option | The score successfully updated | n/a | Yes |
+|I expect the game to come to a halt after either the player or the bot reach an unbeatable score| The game finished as expected and moved to the restart screen | n/a | Yes |
+|I expect the reset button to reload the game with all scores reset when I click it | The game reset correctly | n/a | Yes |
+|I expect when a victory or a loss is earned that the application will notify me of either | The game over and game won screens succesfully showed depending on result | n/a | Yes |
+|I expect the game to maintain user friendliness as I change device size| The game seem to be viable for numerous devices | n/a | Yes |
+|I expect the computer to pick randomly instead of a repeat choice| The computer succesfully made random choices | n/a | Yes |
 
 * ![Lighthouse](https://github.com/SteCodez/R-P-S/blob/master/images/lighthouse_performance.png?raw=true)
 * ![html before](https://github.com/SteCodez/R-P-S/blob/master/images/html_errors.png?raw=true)
