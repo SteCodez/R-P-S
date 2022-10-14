@@ -9,7 +9,7 @@
 6. [Deplpoyment](Deployment)
 ---
 ---
-* [Responsive design](https://github.com/SteCodez/R-P-S/blob/master/images/resp_design.png?raw=true)
+* ![Responsive design](https://github.com/SteCodez/R-P-S/blob/master/images/resp_design.png?raw=true)
 
 ## General Info and purpose of project
 ***
