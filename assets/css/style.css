@@ -77,14 +77,14 @@ h1 {
 }
 
 .rock {
-    background: url(https://github.com/SteCodez/R-P-S/blob/master/images/rock_image2.png?raw=true) no-repeat center centr;
+    background: url(https://github.com/SteCodez/R-P-S/blob/master/images/rock_image2.png?raw=true) no-repeat center center;
     cursor: pointer;
     width: 70px;
     height: 70px;
 }
 
 .paper {
-    background: url(https://github.com/SteCodez/R-P-S/blob/master/images/paper_image2.png?raw=true) centr;
+    background: url(https://github.com/SteCodez/R-P-S/blob/master/images/paper_image2.png?raw=true) center;
     width: 70px;
     height: 70px;
     background-size: auto;
@@ -92,7 +92,7 @@ h1 {
 }
 
 .scissor {
-    background: url(https://github.com/SteCodez/R-P-S/blob/master/images/scissors_image2.png?raw=true) no-repeat center centr;
+    background: url(https://github.com/SteCodez/R-P-S/blob/master/images/scissors_image2.png?raw=true) no-repeat center center;
     width: 70px;
     height: 70px;
 
@@ -142,4 +142,3 @@ h3 {
     z-index: 2;
     text-align: center;
     border-bottom: 2px solid white;
-}
