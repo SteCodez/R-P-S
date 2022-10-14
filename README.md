@@ -12,17 +12,27 @@
 
 ## General Info and purpose of project
 ***
-
+The purpose of this project is to give users a simple rock, paper, scissors experience. The site design is simple and to the point. 
 
 ---
 ## User Stories
 ---
 ---
 #### **As a user using this application the things I would like to see are.**
+
+* As a user I would like to see a working game.
+* As a user I would like to see a design that is not overly complicated.
+* As a user I would like to know the purpose of the site as soon as I enter.
+* As a user I would like to see all of the functions working correctly.
+* As a user I would like to see my score as I progress through the game.
+* As a user I would like to replay the game easily after completion
  
 #### **As a user returning to this application the things I would like to see are.**
-
-
+* I would like too maybe see the game difficulty changed by adding in Lizard, Spock.
+* I would like to see a highscore system.
+* I would like to be able to modify the amount of moves I have
+* I would like to see more visual aids added into the project.
+* I would like to see a reset button before the end of the game.
 ---
 ---
 
